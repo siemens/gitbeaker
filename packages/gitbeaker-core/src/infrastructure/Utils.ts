@@ -1,4 +1,4 @@
-import * as FormData from 'form-data';
+const FormData = require('form-data'); // eslint-disable-line @typescript-eslint/no-var-requires
 
 /* eslint @typescript-eslint/no-explicit-any: 0 */
 interface Constructor {
